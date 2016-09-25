@@ -1,7 +1,8 @@
 defmodule Encodebot.Utils.String do
   def decode(input) do
-    {:ok, result} = Base.url_decode64(input)
-    result
+    input
+    |>
+    Base.url_decode64
   end
 
   def encode(input) do
