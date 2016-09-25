@@ -5,7 +5,5 @@ config :logger, :console,
   format: "$message
 "
 
-# disable lager output
-config :lager,
-  error_logger_redirect: false,
-  handlers: []
+config :encodebot,
+  port: (System.get_env("PORT") || "4000") |> String.to_integer

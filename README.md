@@ -1,6 +1,6 @@
 # encodebot
 
-server to handle slackbot encode/decode
+a hypermedia api
 
 ## License
 

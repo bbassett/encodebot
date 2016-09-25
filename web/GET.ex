@@ -1,13 +1,19 @@
-defmodule EncodeBot.Resource.GET do
+defmodule Encodebot.Resource.GET do
   use Mazurka.Resource
 
-  mediatype Mazurka.Mediatype.Hyperjson do
+  input name
+
+  mediatype Hyper do
     action do
       %{
-        "greeting" => Greeting.world(),
-        "encode" => link_to("POST /encode"),
-        "decode" => link_to("POST /decode")
+        "greeting" => greeting(name || "guest")
       }
     end
+  end
+
+  def greeting(name) do
+    %{
+      "hello" => name
+    }
   end
 end
