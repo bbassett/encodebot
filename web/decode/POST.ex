@@ -2,17 +2,17 @@ defmodule Encodebot.Resource.Decode.POST do
   use Mazurka.Resource
   alias Encodebot.Utils.String
 
-  input encoded_string
+  input text
 
   mediatype Hyper do
     action do
-      String.decode(encoded_string)
+      String.decode(text)
     end
 
     affordance do
       %{
         "input" => %{
-          "encoded_string" => %{
+          "text" => %{
             "type" => "string",
             "required" => true
           }
