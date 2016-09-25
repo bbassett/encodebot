@@ -1,0 +1,11 @@
+%{"concerto": {:hex, :concerto, "0.1.4", "4c4a0c4208aef8f094035d0cc8c6db3aea32726cdea1a6d41a89b04037339f64", [:mix], []},
+  "cowboy": {:hex, :cowboy, "1.0.0", "d0b46a5e5f971c5543eb46f86fe76b9add567d12fb5262a852b8f27c64c0555d", [:make, :rebar], [{:cowlib, "~> 1.0.0", [hex: :cowlib, optional: false]}, {:ranch, "~> 1.0", [hex: :ranch, optional: false]}]},
+  "cowlib": {:hex, :cowlib, "1.0.2", "9d769a1d062c9c3ac753096f868ca121e2730b9a377de23dec0f7e08b1df84ee", [:make], []},
+  "fugue": {:hex, :fugue, "0.1.3", "7fa8d0f82603d02ebfb719ffb389bbf69a80d0b02addb889f18c9613c3ca5fe0", [:mix], [{:plug, "~> 1.0", [hex: :plug, optional: true]}]},
+  "mazurka": {:hex, :mazurka, "1.0.4", "1d68d71c032a38904d05cb8cd99797a2d2e594faeabdcb568e2845b862b91351", [:mix], [{:mimetype_parser, "~> 0.1.0", [hex: :mimetype_parser, optional: false]}]},
+  "mimetype_parser": {:hex, :mimetype_parser, "0.1.2", "221d2d3f727e89d80de5e1610fc2ce444514aa56f873da1b8fc9c033143e5d6a", [:mix], []},
+  "plug": {:hex, :plug, "0.13.1", "a1b3bd841400471203ee413277e5cf13f8ca59215e61736f4b2f7def9ea98612", [:mix], [{:cowboy, "~> 1.0", [hex: :cowboy, optional: true]}]},
+  "plug_wait1": {:hex, :plug_wait1, "0.1.6", "ef15e342b6929f3be676d5a445afbb0c7854835ff35af8b0b014776d99aebf10", [:mix], [{:cowboy, ">= 1.0.0", [hex: :cowboy, optional: false]}, {:plug, "~> 0.13.0", [hex: :plug, optional: false]}, {:poison, "~> 1.3.1", [hex: :poison, optional: false]}]},
+  "poison": {:hex, :poison, "2.2.0", "4763b69a8a77bd77d26f477d196428b741261a761257ff1cf92753a0d4d24a63", [:mix], []},
+  "ranch": {:hex, :ranch, "1.2.1", "a6fb992c10f2187b46ffd17ce398ddf8a54f691b81768f9ef5f461ea7e28c762", [:make], []},
+  "rl": {:git, "https://github.com/camshaft/rl.git", "2f9b194fe6faf3681913bbdddb3ccfa338f869cd", []}}
