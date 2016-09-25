@@ -6,6 +6,8 @@ defmodule Encodebot.HTTP.Router do
     use Plug.Debugger
     plug Plug.Logger
   end
+
+  plug Plug.XForwardedProto
   plug Plug.Parsers, parsers: [Plug.Parsers.Wait1,
                                Plug.Parsers.JSON,
                                Plug.Parsers.URLENCODED],
